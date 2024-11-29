@@ -1,0 +1,210 @@
+[
+  {
+    "name": "Harish",
+    "gender": "Male",
+    "semesterDetails": {
+      "semesterMarks": {
+        "Semester 1": {
+          "marks": [
+            56,
+            75,
+            48,
+            58,
+            59
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "Kumar k",
+    "gender": "Male",
+    "semesterDetails": {
+      "semesterMarks": {
+        "Semester 1": {
+          "marks": [
+            44,
+            58,
+            55,
+            84,
+            585
+          ]
+        },
+        "Semester 2": {
+          "marks": [
+            44,
+            74,
+            84,
+            84,
+            85
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "Malliga",
+    "gender": "Female",
+    "semesterDetails": {
+      "semesterMarks": {
+        "Semester 1": {
+          "marks": [
+            42,
+            77,
+            55,
+            58,
+            89
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "logi",
+    "gender": "Male",
+    "semesterDetails": {
+      "semesterMarks": {
+        "Semester 1": {
+          "marks": [
+            45,
+            75,
+            85,
+            75,
+            95
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "Loki",
+    "gender": "Male",
+    "semesterDetails": {
+      "semesterMarks": {
+        "Semester 1": {
+          "marks": [
+            45,
+            75,
+            85,
+            85,
+            95
+          ]
+        },
+        "Semester 2": {
+          "marks": [
+            55,
+            45,
+            75,
+            85,
+            95
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "sai",
+    "gender": "Male",
+    "semesterDetails": {
+      "semesterMarks": {
+        "Semester 1": {
+          "marks": [
+            5,
+            8,
+            6,
+            8,
+            1
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "demo",
+    "gender": "Male",
+    "semesterDetails": {
+      "semesterMarks": {
+        "Semester 1": {
+          "marks": [
+            45,
+            85,
+            85,
+            75,
+            85
+          ]
+        },
+        "Semester 2": {
+          "marks": [
+            48,
+            58,
+            57,
+            55,
+            85
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "Logesh k",
+    "gender": "male",
+    "semesterDetails": {
+      "semesterMarks": {
+        "Semester 1": {
+          "marks": [
+            85,
+            75,
+            85,
+            95,
+            75
+          ]
+        },
+        "Semester 2": {
+          "marks": [
+            75,
+            45,
+            85,
+            48,
+            79
+          ]
+        },
+        "Semester 3": {
+          "marks": [
+            58,
+            75,
+            84,
+            95,
+            85
+          ]
+        },
+        "Semester 4": {
+          "marks": [
+            47,
+            58,
+            46,
+            75,
+            98
+          ]
+        },
+        "Semester 5": {
+          "marks": [
+            77,
+            85,
+            95,
+            89,
+            59
+          ]
+        },
+        "Semester 6": {
+          "marks": [
+            45,
+            55,
+            78,
+            96,
+            85
+          ]
+        }
+      }
+    }
+  }
+]

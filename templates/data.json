@@ -1,0 +1,18 @@
+
+{
+    "hospital": {
+      "name": "Logesh Hospital",
+      "location": "chennai",
+      "departments": [
+        {
+          "name": "Cardiology",
+          "head": "Dr. Logesh"
+        },
+        {
+          "name": "Neurology",
+          "head": "Dr. Logesh kumar"
+        }
+      ]
+    }
+  }
+  

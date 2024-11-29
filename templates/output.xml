@@ -1,0 +1,14 @@
+<hospital>
+    <name>Logesh Hospital</name>
+    <location>chennai</location>
+    <departments>
+            <department>
+                <name>Cardiology</name>
+                <head>Dr. Logesh</head>
+            </department>
+            <department>
+                <name>Neurology</name>
+                <head>Dr. Logesh kumar</head>
+            </department>
+    </departments>
+</hospital>
