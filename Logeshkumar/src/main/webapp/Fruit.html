@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fruit Market</title>
+<style>
+body {
+	font-family: Arial, sans-serif;
+	background: linear-gradient(to right, light gray, light gray);
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	background: linear-gradient(to right, blue, darker shade of blue);
+	color: rgb(0, 0, 0);
+	padding: 20px;
+	margin: 0;
+	font-size: 32px;
+	box-shadow: 0 4px 8px turquoise;
+}
+
+form {
+	background: white;
+	border: 1px solid light gray shade;
+	border-radius: 12px;
+	padding: 20px;
+	margin: 20px auto;
+	max-width: 400px;
+	box-shadow: 0 6px 12px turquoise;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+form:hover {
+	transform: scale(1.02);
+	box-shadow: 0 8px 16px turquoise;
+}
+
+h2 {
+	color: turquoise;
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+input[type="text"], input[type="number"], input[type="date"] {
+	width: 100%;
+	padding: 12px;
+	margin: 10px 0;
+	border: 1px bold black;
+	border-radius: 8px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+button {
+	background: linear-gradient(to right, blue, darker shade of blue);
+	color: grey;
+	border: none;
+	border-radius: 8px;
+	padding: 12px 20px;
+	cursor: pointer;
+	font-size: 18px;
+	width: 100%;
+	margin-top: 10px;
+	transition: background 0.3s ease;
+}
+
+button:hover {
+	background-color: skyblue;
+}
+
+button:active {
+	background-color: white;
+}
+
+form input[type="hidden"] {
+	display: none;
+}
+</style>
+</head>
+<body>
+	<h1>Fruit Market Management</h1>
+	<form action="Add" method="post">
+		<h2>Add Fruit</h2>
+		Name: <input type="text" name="name" placeholder="Enter fruit name"
+			required><br>
+		<br> Price: <input type="number" name="price" step="0.01"
+			placeholder="Enter fruit price" required><br>
+		<br> Quantity: <input type="number" name="quantity" step="0.01"
+			placeholder="Enter fruit quantity" required><br>
+		<br> Date: <input type="date" name="date" step="0.01"
+			placeholder="Enter fruit date" required><br>
+		<br> <input type="hidden" name="action" value="add">
+		<button type="submit">Add Fruit</button>
+	</form>
+	<form action="View" method="get">
+		<h2>View Fruits</h2>
+		<input type="hidden" name="action" value="view">
+		<button type="submit">View Fruits</button>
+	</form>
+	<form action="Update" method="post">
+		<h2>Update Fruit</h2>
+		ID: <input type="number" name="id" placeholder="Enter fruit ID"><br>
+		<br> Name: <input type="text" name="name"
+			placeholder="Enter fruit name"><br>
+		<br> Price: <input type="number" name="price" step="0.01"
+			placeholder="Enter fruit price"><br>
+		<br> Quantity: <input type="number" name="quantity" step="0.01"
+			placeholder="Enter fruit quantity"><br>
+		<br> Date: <input type="date" name="date" step="0.01"
+			placeholder="Enter fruit date"><br>
+		<br> <input type="hidden" name="action" value="update">
+		<button type="submit">Update Fruit</button>
+	</form>
+	<form action="View-By-Id-Name-Quantity" method="get">
+		select * from fruits where <input type="radio" name="select"
+			value="id" step="0.01">Id <input type="radio" name="select"
+			value="name" step="0.01">Name <input type="radio"
+			name="select" value="quantity" step="0.01">Quantity where<input
+			type="text" name="where" step="0.01"
+			placeholder="Enter where condition" required><br>
+		<br> <input type="hidden" name="action" value="search">
+		<button type="submit">Search</button>
+	</form>
+	<form action="Delete" method="post">
+		<h2>Delete Fruit</h2>
+		ID: <input type="number" name="id" placeholder="Enter fruit ID"><br>
+		<br> <input type="hidden" name="action" value="delete">
+		<button type="submit">Delete Fruit</button>
+	</form>
+</body>
+</html>
