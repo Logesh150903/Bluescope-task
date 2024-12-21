@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceResponse xmlns:ns2="urn:control.services.tiplus2.misys.com" xmlns:ns3="urn:messages.service.ti.apps.tiplus2.misys.com" xmlns:ns4="urn:common.service.ti.apps.tiplus2.misys.com">
+  <ns2:SearchMastersResponse>
+    <ns4:ORMSEARCH>
+      <ns4:Master>CBA0132A11001015</ns4:Master>
+    </ns4:ORMSEARCH>
+  </ns2:SearchMastersResponse>
+  <ns2:SearchMastersResponse>
+    <ns4:ORMSEARCH>
+      <ns4:Master>CBA0132A11001075</ns4:Master>
+    </ns4:ORMSEARCH>
+  </ns2:SearchMastersResponse>
+  <ns2:SearchMastersResponse>
+    <ns4:ORMSEARCH>
+      <ns4:Master>CBA0132A11001045</ns4:Master>
+    </ns4:ORMSEARCH>
+  </ns2:SearchMastersResponse>
+  <ns2:SearchMastersResponse>
+    <ns4:ORMSEARCH>
+      <ns4:Master>CBA0132A11001090</ns4:Master>
+    </ns4:ORMSEARCH>
+  </ns2:SearchMastersResponse>
+  <ns2:SearchMastersResponse>
+    <ns4:ORMSEARCH>
+      <ns4:Master>CBA0132A11001034</ns4:Master>
+    </ns4:ORMSEARCH>
+  </ns2:SearchMastersResponse>
+  <ns2:SearchMastersResponse>
+    <ns4:ORMSEARCH>
+      <ns4:Master>CBA0132A11001089</ns4:Master>
+    </ns4:ORMSEARCH>
+  </ns2:SearchMastersResponse>
+  <ns2:SearchMastersResponse>
+    <ns4:ORMSEARCH>
+      <ns4:Master></ns4:Master>
+    </ns4:ORMSEARCH>
+  </ns2:SearchMastersResponse>
+  <ns2:SearchMastersResponse>
+    <ns4:ORMSEARCH>
+      <ns4:Master>null</ns4:Master>
+    </ns4:ORMSEARCH>
+    <ns2:SearchMastersResponse>
+    <ns4:ORMSEARCH>
+      <ns4:Master> </ns4:Master>
+    </ns4:ORMSEARCH>
+  </ns2:SearchMastersResponse>
+  </ns2:SearchMastersResponse>
+  <ns2:SearchMastersResponse>
+    <ns4:ORMSEARCH>
+      <ns4:Master>CBA0132A11001023</ns4:Master>
+    </ns4:ORMSEARCH>
+  </ns2:SearchMastersResponse>
+</ServiceResponse>
+
+<!-- <iterations>
+    <iteration>1</iteration>
+    <iteration>2</iteration>
+    <iteration>3</iteration>
+    <iteration>4</iteration>
+    <iteration>5</iteration>
+</iterations>  -->
+

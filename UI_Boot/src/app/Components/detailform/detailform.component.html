@@ -1,0 +1,17 @@
+<div>
+    <div>
+        <h1>Detail form</h1>
+    </div>
+    <div class="container">
+        <form (ngSubmit)="onSubmit()" #customerForm="ngForm">
+            <div class="form-group">
+                <label for="name">ActionCode:</label>
+                <input type="text" id="actionCode" name="actionCode" [(ngModel)]="DetailModule.actioncode"
+                    class="form-control" required />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <h2>Output:</h2>
+        <pre *ngIf="outputJson">{{ outputJson }}</pre>
+    </div>
+</div>

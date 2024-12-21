@@ -1,0 +1,24 @@
+<div>
+    <div>
+        <h1>List form</h1>
+    </div>
+    <div class="container">
+        <form (ngSubmit)="onSubmit()" #customerForm="ngForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" [(ngModel)]="ListModule.name" class="form-control" required />
+            </div>
+
+            <div class="form-group">
+                <label for="status">Status:</label>
+                <input type="text" id="status" name="status" [(ngModel)]="ListModule.status" class="form-control"
+                    required />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <h2>Output:</h2>
+        <pre *ngIf="outputJson">{{ outputJson }}</pre>
+    </div>
+</div>
