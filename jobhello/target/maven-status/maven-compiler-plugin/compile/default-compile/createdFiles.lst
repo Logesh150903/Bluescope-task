@@ -1,0 +1,4 @@
+com\example\ConJobApp.class
+com\example\tasklet\HelloWorldTasklet.class
+com\example\JobhelloApplication.class
+com\example\config\JobTrigger.class
