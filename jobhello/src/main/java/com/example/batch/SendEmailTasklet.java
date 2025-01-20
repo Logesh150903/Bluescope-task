@@ -15,9 +15,9 @@ import javax.mail.internet.MimeMessage;
 
 public class SendEmailTasklet implements Tasklet {
 
-	private String dbUrl = "jdbc:mysql://localhost:3308/jobmail";
-	private String dbUsername = "root";
-	private String dbPassword = "root";
+	private String dbUrl = "jdbc:mysql://localhost:prot no/databasename";
+	private String dbUsername = "user name";
+	private String dbPassword = "password";
 	private JavaMailSender mailSender;
 	private boolean emailsenduser = false;
 
