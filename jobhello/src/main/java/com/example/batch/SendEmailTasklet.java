@@ -102,7 +102,7 @@ public class SendEmailTasklet implements Tasklet {
 		final String user = "mail id";
 		final String password = "password";
 
-		String to = "logeshkumarkcg@gmail.com";
+		String to = "mail id";
 
 		Properties props = new Properties();
 		props.put("mail.smtp.host", host);
