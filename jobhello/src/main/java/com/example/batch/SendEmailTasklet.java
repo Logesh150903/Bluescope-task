@@ -48,8 +48,8 @@ public class SendEmailTasklet implements Tasklet {
 
 	public void sendInactiveUserEmail() throws SQLException, MessagingException {
 		String host = "smtp.gmail.com";
-		final String user = "logeshkumar1509@gmail.com";
-		final String password = "cuds logk snfc yrcg";
+		final String user = "mail id";
+		final String password = "password";
 		Properties props = new Properties();
 		props.put("mail.smtp.host", host);
 		props.put("mail.smtp.starttls.enable", "true");
@@ -99,8 +99,8 @@ public class SendEmailTasklet implements Tasklet {
 
 	public void sendAllInactiveUserEmail() throws SQLException, MessagingException {
 		String host = "smtp.gmail.com";
-		final String user = "logeshkumar1509@gmail.com";
-		final String password = "cuds logk snfc yrcg";
+		final String user = "mail id";
+		final String password = "password";
 
 		String to = "logeshkumarkcg@gmail.com";
 
