@@ -27,7 +27,7 @@ public class ScheduledJobLauncher {
     public void setJob(Job job) {
         this.job = job;
     }
-    @Scheduled(fixedRate = 5000)
+  //  @Scheduled(fixedRate = 5000)
     public static synchronized void runJob() {
         if (isJobRunning) {
             System.out.println("Job is already running, skipping execution.");
